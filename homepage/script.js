@@ -49,6 +49,9 @@ function search() {
     else if (locater == '!y ') {
         window.location = 'https://www.youtube.com/results?search_query=' + searchtext;
     }
+    else if (locater == '!r ') {
+        window.location = 'https://www.reddit.com/r/' + searchtext;
+    }
     else if (locater == '!w ') {
         weatheris();
     }
