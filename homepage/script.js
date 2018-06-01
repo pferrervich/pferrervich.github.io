@@ -7,7 +7,6 @@ document.body.style.backgroundImage = "url('https://unsplash.it/2560/1440/?rando
 
 var searchbox = document.getElementById('search');
 var searchbutton = document.getElementById('button-search');
-var clearbutton = document.getElementById('button-clear');
 
 var weatherdiv = document.getElementById('weathershow');
 var weathericon = document.getElementById('weather-icon');
@@ -51,6 +50,9 @@ function search() {
     }
     else if (locater == '!r ') {
         window.location = 'https://www.reddit.com/r/' + searchtext;
+    }
+    else if (locater == '!g ') {
+        window.location = 'https://genius.com/search?q=' + searchtext;
     }
     else if (locater == '!w ') {
         weatheris();
