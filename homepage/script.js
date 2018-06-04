@@ -54,6 +54,9 @@ function search() {
     else if (locater == '!g ') {
         window.location = 'https://genius.com/search?q=' + searchtext;
     }
+    else if (locater == '!i ') {
+        window.location == 'https://www.imdb.com/find?s=all&q=' + searchtext;
+    }
     else if (locater == '!w ') {
         weatheris();
     }
