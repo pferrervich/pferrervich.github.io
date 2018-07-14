@@ -25,10 +25,7 @@ h5,
 h6 {
   font-weight: 700;
 }
-img {
-  height: 100px;
-  width: 100px;
-}
+
 a {
   color: #2d7788;
   -webkit-transition: all 0.4s ease-in-out;
