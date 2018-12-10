@@ -69,9 +69,6 @@ $(function() {
 	    beforeCheckout              : null,
 
 
-	   	spreadsheetID : "1regQnqbpfN8dJNtQxtdPgvhNs7IPtOVCvQ-0J7quwLc"
-
-
 	});
 
 	simpleStore.init({
@@ -86,5 +83,7 @@ $(function() {
 		JSONFile : "products.json"
 
 	});
+
+	spreadsheetID : "1regQnqbpfN8dJNtQxtdPgvhNs7IPtOVCvQ-0J7quwLc";
 
 });
