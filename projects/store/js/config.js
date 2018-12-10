@@ -74,16 +74,18 @@ $(function() {
 	simpleStore.init({
 
 		// brand can be text or image URL
-		brand : "Uve Barker",
+		brand : "Test",
 
 		// numder of products per row (accepts 1, 2 or 3)
 		numColumns : 3,
+
+		spreadsheetID : "1regQnqbpfN8dJNtQxtdPgvhNs7IPtOVCvQ-0J7quwLc",
 
 		// name of JSON file, located in directory root
 		JSONFile : "products.json"
 
 	});
 
-	spreadsheetID : "1regQnqbpfN8dJNtQxtdPgvhNs7IPtOVCvQ-0J7quwLc";
+	
 
 });
