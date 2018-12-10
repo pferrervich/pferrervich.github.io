@@ -18,7 +18,7 @@ simpleStore.plugins.google = (function() {
 
 		var hostname = "https://spreadsheets.google.com";
 		var format = "json";
-		var mainsheetURL = hostname + "/feeds/list/" + s.spreadsheetID + "/od6/public/values?alt=" + format;
+		var mainsheetURL = "spreadsheets.google.com/feeds/list/1regQnqbpfN8dJNtQxtdPgvhNs7IPtOVCvQ-0J7quwLc/undefined/public/values?alt=json"
 		var settingsSheetName = "Settings";
 		var productsSheetName = "Products";
 		var sheetIDs = {};
