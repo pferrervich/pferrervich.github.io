@@ -1,7 +1,6 @@
 $(function() {
 	simpleCart({
 
-		spreadsheetID : "1regQnqbpfN8dJNtQxtdPgvhNs7IPtOVCvQ-0J7quwLc",
 	    // array representing the format and columns of the cart, see
 	    // the cart columns documentation
 	    cartColumns: [
@@ -67,14 +66,18 @@ $(function() {
 	    ready                   	: null,
 	    checkoutSuccess             : null,
 	    checkoutFail                : null,
-	    beforeCheckout              : null
+	    beforeCheckout              : null,
+
+
+	   	spreadsheetID : "1regQnqbpfN8dJNtQxtdPgvhNs7IPtOVCvQ-0J7quwLc"
+
 
 	});
 
 	simpleStore.init({
 
 		// brand can be text or image URL
-		brand : "SimpleStore",
+		brand : "Uve Barker",
 
 		// numder of products per row (accepts 1, 2 or 3)
 		numColumns : 3,
