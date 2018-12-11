@@ -79,13 +79,13 @@ $(function() {
 		// numder of products per row (accepts 1, 2 or 3)
 		numColumns : 3,
 
-		spreadsheetID : "1regQnqbpfN8dJNtQxtdPgvhNs7IPtOVCvQ-0J7quwLc",
+		spreadsheetID : "2PACX-1vQ4aaEqSiswgQGLkuGtkWbw7YxaW9AIZEcZpaE1Sbz4Fr98bDibq2l96Ax_vwYuiOLfZDr-TvKJK4hz",
 
 		// name of JSON file, located in directory root
 		JSONFile : "products.json"
 
 	});
 
-	
+
 
 });
