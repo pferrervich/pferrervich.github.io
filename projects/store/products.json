@@ -29,6 +29,15 @@
 			],
 			"image" : "https://www.dropbox.com/s/z5d1zqhaano65bt/picklerick.png?raw=1",
 			"description" : "This is another fun grey T-shirt"
+		},
+		{
+			"name" : "Fun T-shirt",
+			"price" : "15.99",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" }
+			],
+			"image" : "http://upload.wikimedia.org/wikipedia/commons/c/c6/Grey_Tshirt.jpg",
+			"description" : "This is another fun grey T-shirt"
 		}
 	]
 }
