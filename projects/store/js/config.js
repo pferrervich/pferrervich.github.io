@@ -19,18 +19,19 @@ $(function() {
 	    // how simpleCart should checkout, see the checkout reference for more info
 	    checkout: {
 	        type: "PayPal" ,
-	        email: "you@yours.com"
+	        email: "paubusiness@gmail.com",
+					sandbox: true
 	    },
 
 	    // set the currency, see the currency reference for more info
-	    currency: "USD",
+	    currency: "EUR",
 
 	    // collection of arbitrary data you may want to store with the cart,
 	    // such as customer info
 	    data: {},
 
 	    // set the cart langauge (may be used for checkout)
-	    language: "english-us",
+	    language: "spanish-es",
 
 	    // array of item fields that will not be sent to checkout
 	    excludeFromCheckout: [
@@ -74,7 +75,7 @@ $(function() {
 	simpleStore.init({
 
 		// brand can be text or image URL
-		brand : "Test",
+		brand : "Uve Barker Store",
 
 		// numder of products per row (accepts 1, 2 or 3)
 		numColumns : 3,

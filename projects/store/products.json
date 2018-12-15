@@ -1,33 +1,33 @@
 {
 	"products" : [
 		{
-			"name" : "Awesome T-shirt",
-			"price" : "35.99",
+			"name" : "Stimpy Fart",
+			"price" : "10.00",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Size" : "15x15,20x20,30x30" }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/c/c6/Grey_Tshirt.jpg",
-			"description" : "This is a very awesome grey T-shirt"
+			"image" : "https://www.dropbox.com/s/jois8ohn31zalck/34%20-%20stimpyfart.png?raw=1",
+			"description" : "Im gay"
 		},
 		{
-			"name" : "Cool T-shirt",
-			"price" : "15.99",
+			"name" : "Bad Boys",
+			"price" : "10.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Blue,Red" },
 			    { "OneOfAKind" : true }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg",
-			"description" : "This is a really cool blue T-shirt",
+			"image" : "https://www.dropbox.com/s/k32ovem88hx4dm1/badboys.png?raw=1",
+			"description" : "TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST",
 			"soldOut" : true
 		},
 		{
-			"name" : "Fun T-shirt",
-			"price" : "15.99",
+			"name" : "Pickle Rick",
+			"price" : "10.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/c/c6/Grey_Tshirt.jpg",
+			"image" : "https://www.dropbox.com/s/z5d1zqhaano65bt/picklerick.png?raw=1",
 			"description" : "This is another fun grey T-shirt"
 		}
 	]
