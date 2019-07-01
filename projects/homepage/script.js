@@ -52,7 +52,7 @@ function search() {
         window.location = 'https://www.reddit.com/r/' + searchtext;
     }
     else if (locater == '!g ') {
-        window.location = 'https://genius.com/search?q=' + searchtext;
+        window.location = 'https://google.com/search?q=' + searchtext;
     }
     else if (locater == '!i ') {
         window.location = 'https://www.imdb.com/find?s=all&q=' + searchtext;
@@ -61,7 +61,7 @@ function search() {
         weatheris();
     }
     else {
-        window.location = 'https://google.es/search?q=' + query;
+        window.location = 'https://duckduckgo.com/?q=' + query;
     }
 }
 
